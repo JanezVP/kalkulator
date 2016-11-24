@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Kalkulator!</h1>
+    <form method="POST" action="/rezultat">
+        <label for="vpis-prvestevilke">Vpišite številko:</label>
+        <input name="steviloena" id="vpis-prvestevilke" type="number">
+        <br>
+        <label for="vpis-drugestevilke">Vpišite številko:</label>
+        <input name="stevilodve" id="vpis-drugestevilke" type="number">
+        <br>
+        <button type="submit">Seštej števila</button>
+    </form>
+    <br>
+    <form method="POST" action="/zmnozek">
+        <label for="vpis-prvestevilke">Vpišite številko:</label>
+        <input name="steviloena" id="vpis-prvestevilke" type="number">
+        <br>
+        <label for="vpis-drugestevilke">Vpišite številko:</label>
+        <input name="stevilodve" id="vpis-drugestevilke" type="number">
+        <br>
+        <button type="submit">Množi števila</button>
+    </form>
+    <br>
+    <form method="POST" action="/index">
+        <label for="vpis-prvestevilke">Vpišite višino v centimetrih:</label>
+        <input name="steviloena" id="vpis-prvestevilke" type="number">
+        <br>
+        <label for="vpis-drugestevilke">Vpišite težo v kilogramih:</label>
+        <input name="stevilodve" id="vpis-drugestevilke" type="number">
+        <br>
+        <button type="submit">Index telesne mase</button>
+    </form>
+
+</body>
+</html>
